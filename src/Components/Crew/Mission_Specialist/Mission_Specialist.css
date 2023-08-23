@@ -1,0 +1,49 @@
+.Mission_Specialist {
+    background-image: url(../../../Images/Crew/background-crew-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 790px;
+}
+.Mission_Specialist article {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10rem;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 3.5rem;
+    width: 1100px;
+}
+.Mission_Specialist article h3 {
+    font-size: var(--H3);
+    font-weight: normal;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+.Mission_Specialist article h4 {
+    color: rgba(128, 128, 128, 0.5);
+    font-size: var(--H4);
+    font-weight: normal;
+    margin-top: 8rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+.Mission_Specialist article span {
+    color: rgba(128, 128, 128, 0.5);
+    font-family: 'Instrument Serif', serif;;
+    font-weight: bold;
+}
+.Mission_Specialist article h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: var(--H3);
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+.Mission_Specialist article p {
+    font-size: var(--Paragraph);
+    width: 390px;
+}

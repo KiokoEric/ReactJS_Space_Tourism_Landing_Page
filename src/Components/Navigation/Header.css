@@ -1,0 +1,38 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+}
+.Header figure {
+    width: 200px;
+}
+.Line {
+    background-color: rgba(211, 207, 207, 0.3);
+    content: "";
+    height: 0.5px;
+    margin-top: 2rem;
+    width: 450px;
+}
+.Header nav {
+    width: 800px;
+}
+.Header ul {
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(40px);
+    padding: 1.5rem 0rem;
+}
+.Header li {
+    letter-spacing: 2px;
+    list-style-type: none;
+    margin-right: 4rem;
+    text-transform: uppercase;
+}
+.Header li:first-child {
+    margin-left: 2rem;
+}
+.Header span {
+    margin-left: 0.5rem;
+}

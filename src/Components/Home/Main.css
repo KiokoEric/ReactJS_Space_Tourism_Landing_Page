@@ -1,0 +1,47 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 13.5rem;
+    width: 1200px;
+}
+.Main section {
+    width: 500px;
+}
+.Main h3 {
+    font-size: var(--H3);
+    font-weight: normal;
+    text-transform: uppercase;
+} 
+.Main h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: var(--H1);
+    font-weight: normal;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+.Main p {
+    font-size: var(--Paragraph);
+    width: 390px;
+}
+.Main section:last-child {
+    margin-top: 5rem;
+}
+.Main section:last-child div {
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    letter-spacing: 2px;
+    margin-left: 14rem;
+    text-transform: uppercase;
+    width: 250px;
+}
+.Main section:last-child h3 {
+    font-size: var(--H3);
+}

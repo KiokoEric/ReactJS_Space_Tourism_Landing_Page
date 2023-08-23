@@ -1,0 +1,65 @@
+.Space-Capsule {
+    background-image: url(../../../Images/Technology/background-technology-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 795px;
+}
+.Space-Capsule article {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10rem;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 2.5rem;
+    padding-top: 3.5rem;
+    width: 1100px;
+}
+.Space-Capsule article h4 {
+    font-size: var(--H4);
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+.Space-Capsule article h3 {
+    font-size: var(--H3);
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-bottom: 2rem;
+    margin-left: 8.5rem;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+.Space-Capsule article h5 {
+    font-size: var(--H5);
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 8.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 8.5rem;
+    text-transform: uppercase;
+}
+.Space-Capsule article span {
+    color: rgba(128, 128, 128, 0.5);
+    font-family: 'Instrument Serif', serif;;
+    font-weight: bold;
+}
+.Space-Capsule article h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: var(--H3);
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    text-transform: uppercase; 
+}
+.Space-Capsule article p {
+    font-size: var(--Paragraph);
+    margin-left: 8.5rem;
+    width: 460px;
+}
+.Space-Capsule article img {
+    margin-top: 5.5rem;
+    width: 450px;
+}

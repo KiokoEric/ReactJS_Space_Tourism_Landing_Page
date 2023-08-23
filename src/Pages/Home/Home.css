@@ -1,0 +1,7 @@
+.Home {
+    background-image: url(../../Images/Home/background-home-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 790px;
+}

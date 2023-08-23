@@ -1,0 +1,20 @@
+.Footer section {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.2rem;
+}
+.Footer {
+    margin-top: -9.5rem;
+    margin-left: 10rem;
+}
+.Navigate {
+    background-color: grey;
+    border-radius: 50%;
+    content: "";
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+.Navigate:hover {
+    background-color: white;
+}
